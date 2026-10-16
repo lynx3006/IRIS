@@ -1,0 +1,7 @@
+fastapi
+pydantic<3,>=2
+networkx
+
+[dev]
+pytest
+httpx

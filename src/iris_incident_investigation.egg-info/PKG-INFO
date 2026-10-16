@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: iris-incident-investigation
+Version: 0.1.0
+Summary: Incident Response & Investigation System
+Requires-Python: <3.13,>=3.12
+Requires-Dist: fastapi
+Requires-Dist: pydantic<3,>=2
+Requires-Dist: networkx
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: httpx; extra == "dev"
